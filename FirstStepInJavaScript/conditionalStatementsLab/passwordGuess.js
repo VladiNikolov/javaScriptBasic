@@ -1,0 +1,12 @@
+function passwordGuess(input){
+    
+    let inputWord  = input[0];
+    let searchedWord = "s3cr3t!P@ssw0rd"
+
+    if (searchedWord === inputWord){
+        console.log("Welcome");
+    } else{
+        console.log("Wrong password!")
+    }
+}
+passwordGuess(["s3cr3t!P@ssw0rd"])
